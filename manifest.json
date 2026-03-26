@@ -429,6 +429,46 @@
         "blob/280f07c8a10a7ec70938d4d95f626e37ca989e10.nq.gz",
         "blob/908c601bb9150579d0a955cee0d2b0c15fc606c3.nq.gz",
         "blob/f7a45605a7dabf253707cf0196a803373a001c09.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/8811f78129a3f3fe0f586610324b60d834944f16.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/8811f78129a3f3fe0f586610324b60d834944f16.nq.gz",
+      "repolex": "aggregate/repolex/8811f78129a3f3fe0f586610324b60d834944f16.nq.gz",
+      "dep": "dep/8811f78129a3f3fe0f586610324b60d834944f16.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "org.apache.jena:jena-arq",
+          "packageVersion": "6.0.0",
+          "githubOrg": "apache",
+          "githubRepo": "jena",
+          "githubCommit": "1b767c8830220f55dcd760e94c0dadf597b6eea4",
+          "githubTag": "jena-6.0.0"
+        },
+        {
+          "packageName": "eu.neverblink.jelly:jelly-jena",
+          "packageVersion": "3.7.1",
+          "githubOrg": "Jelly-RDF",
+          "githubRepo": "jelly-jvm",
+          "githubCommit": "29788d99fef30242a831260cfe9bb0181b30c2fe",
+          "githubTag": "v3.7.1"
+        },
+        {
+          "packageName": "org.slf4j:slf4j-api",
+          "packageVersion": "2.1.0-alpha1",
+          "githubOrg": "qos-ch",
+          "githubRepo": "slf4j",
+          "githubCommit": "d0fe6310eb4f1e9cb306b6934a3e7aee0feef46b",
+          "githubTag": "v_2.1.0-alpha1"
+        },
+        {
+          "packageName": "org.apache.logging.log4j:log4j-slf4j2-impl",
+          "packageVersion": "3.0.0-beta2",
+          "githubOrg": "apache",
+          "githubRepo": "logging-log4j2",
+          "githubCommit": "086db24a04f905b40649666aafe3bb4778a75291",
+          "githubTag": "rel/3.0.0-beta2"
+        }
       ]
     }
   ],

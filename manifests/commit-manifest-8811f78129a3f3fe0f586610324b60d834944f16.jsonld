@@ -42,10 +42,64 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 27665
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/8811f78129a3f3fe0f586610324b60d834944f16.nq.gz",
+      "repolex:graphFileSize": 7426805
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/8811f78129a3f3fe0f586610324b60d834944f16.nq.gz",
+      "repolex:graphFileSize": 25013598
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/8811f78129a3f3fe0f586610324b60d834944f16.nq.gz",
+      "repolex:graphFileSize": 2223596
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/8811f78129a3f3fe0f586610324b60d834944f16.nq.gz",
+      "repolex:graphFileSize": 771
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-03-26T06:58:16.449802+00:00",
   "repolex:parserVersion": "0.0.7",
-  "git:tagName": "v1.5.0"
+  "git:tagName": "v1.5.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/apache/jena",
+      "repolex:packageName": "org.apache.jena:jena-arq",
+      "repolex:packageVersion": "6.0.0",
+      "git:hexsha": "1b767c8830220f55dcd760e94c0dadf597b6eea4",
+      "git:tagName": "jena-6.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/Jelly-RDF/jelly-jvm",
+      "repolex:packageName": "eu.neverblink.jelly:jelly-jena",
+      "repolex:packageVersion": "3.7.1",
+      "git:hexsha": "29788d99fef30242a831260cfe9bb0181b30c2fe",
+      "git:tagName": "v3.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/qos-ch/slf4j",
+      "repolex:packageName": "org.slf4j:slf4j-api",
+      "repolex:packageVersion": "2.1.0-alpha1",
+      "git:hexsha": "d0fe6310eb4f1e9cb306b6934a3e7aee0feef46b",
+      "git:tagName": "v_2.1.0-alpha1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/logging-log4j2",
+      "repolex:packageName": "org.apache.logging.log4j:log4j-slf4j2-impl",
+      "repolex:packageVersion": "3.0.0-beta2",
+      "git:hexsha": "086db24a04f905b40649666aafe3bb4778a75291",
+      "git:tagName": "rel/3.0.0-beta2"
+    }
+  ]
 }
