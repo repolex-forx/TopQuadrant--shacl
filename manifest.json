@@ -438,7 +438,7 @@
       "dep": "dep/8811f78129a3f3fe0f586610324b60d834944f16.nq.gz",
       "dependencies": [
         {
-          "packageName": "org.apache.jena:jena-base",
+          "packageName": "org.apache.jena:jena-arq",
           "packageVersion": "6.0.0",
           "githubOrg": "apache",
           "githubRepo": "jena",
@@ -468,6 +468,22 @@
           "githubRepo": "logging-log4j2",
           "githubCommit": "086db24a04f905b40649666aafe3bb4778a75291",
           "githubTag": "rel/3.0.0-beta2"
+        },
+        {
+          "packageName": "org.apache.jena:jena-base",
+          "packageVersion": "6.0.0",
+          "githubOrg": "apache",
+          "githubRepo": "jena",
+          "githubCommit": "1b767c8830220f55dcd760e94c0dadf597b6eea4",
+          "githubTag": "jena-6.0.0"
+        },
+        {
+          "packageName": "org.apache.jena:jena-core",
+          "packageVersion": "6.0.0",
+          "githubOrg": "apache",
+          "githubRepo": "jena",
+          "githubCommit": "1b767c8830220f55dcd760e94c0dadf597b6eea4",
+          "githubTag": "jena-6.0.0"
         }
       ]
     },
