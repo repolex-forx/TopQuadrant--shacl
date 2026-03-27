@@ -438,7 +438,7 @@
       "dep": "dep/8811f78129a3f3fe0f586610324b60d834944f16.nq.gz",
       "dependencies": [
         {
-          "packageName": "org.apache.jena:jena-arq",
+          "packageName": "org.apache.jena:jena-base",
           "packageVersion": "6.0.0",
           "githubOrg": "apache",
           "githubRepo": "jena",

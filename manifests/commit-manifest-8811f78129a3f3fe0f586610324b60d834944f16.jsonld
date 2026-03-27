@@ -47,25 +47,25 @@
       "@type": "repolex:GraphFile",
       "repolex:graphType": "repolex",
       "repolex:graphFilePath": "aggregate/repolex/8811f78129a3f3fe0f586610324b60d834944f16.nq.gz",
-      "repolex:graphFileSize": 7428321
+      "repolex:graphFileSize": 7444715
     },
     {
       "@type": "repolex:GraphFile",
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/8811f78129a3f3fe0f586610324b60d834944f16.nq.gz",
-      "repolex:graphFileSize": 25126803
+      "repolex:graphFileSize": 25077540
     },
     {
       "@type": "repolex:GraphFile",
       "repolex:graphType": "lsp",
       "repolex:graphFilePath": "aggregate/lsp/8811f78129a3f3fe0f586610324b60d834944f16.nq.gz",
-      "repolex:graphFileSize": 2226651
+      "repolex:graphFileSize": 2227524
     },
     {
       "@type": "repolex:GraphFile",
       "repolex:graphType": "dep",
       "repolex:graphFilePath": "dep/8811f78129a3f3fe0f586610324b60d834944f16.nq.gz",
-      "repolex:graphFileSize": 774
+      "repolex:graphFileSize": 785
     }
   ],
   "repolex:parseStatus": "parsed",
@@ -75,7 +75,7 @@
   "repolex:dependencyRepo": [
     {
       "@id": "https://repolex.ai/r/apache/jena",
-      "repolex:packageName": "org.apache.jena:jena-arq",
+      "repolex:packageName": "org.apache.jena:jena-base",
       "repolex:packageVersion": "6.0.0",
       "git:hexsha": "1b767c8830220f55dcd760e94c0dadf597b6eea4",
       "git:tagName": "jena-6.0.0"
