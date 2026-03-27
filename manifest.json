@@ -1169,6 +1169,54 @@
         "blob/f737d7e41f20d5ab63e24d09f2c39fca344a0fff.nq.gz",
         "blob/f7a45605a7dabf253707cf0196a803373a001c09.nq.gz",
         "blob/606f1121363f59706aff93c8cbbe5b5e02914a6e.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/a40627da5df455535d3519eb6629057ab52a2843.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/a40627da5df455535d3519eb6629057ab52a2843.nq.gz",
+      "repolex": "aggregate/repolex/a40627da5df455535d3519eb6629057ab52a2843.nq.gz",
+      "dep": "dep/a40627da5df455535d3519eb6629057ab52a2843.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "org.apache.jena:jena-arq",
+          "packageVersion": "6.0.0",
+          "githubOrg": "apache",
+          "githubRepo": "jena",
+          "githubCommit": "1b767c8830220f55dcd760e94c0dadf597b6eea4",
+          "githubTag": "jena-6.0.0"
+        },
+        {
+          "packageName": "org.slf4j:slf4j-api",
+          "packageVersion": "2.1.0-alpha1",
+          "githubOrg": "qos-ch",
+          "githubRepo": "slf4j",
+          "githubCommit": "d0fe6310eb4f1e9cb306b6934a3e7aee0feef46b",
+          "githubTag": "v_2.1.0-alpha1"
+        },
+        {
+          "packageName": "org.apache.logging.log4j:log4j-slf4j2-impl",
+          "packageVersion": "3.0.0-beta2",
+          "githubOrg": "apache",
+          "githubRepo": "logging-log4j2",
+          "githubCommit": "086db24a04f905b40649666aafe3bb4778a75291",
+          "githubTag": "rel/3.0.0-beta2"
+        },
+        {
+          "packageName": "org.apache.jena:jena-core",
+          "packageVersion": "6.0.0",
+          "githubOrg": "apache",
+          "githubRepo": "jena",
+          "githubCommit": "1b767c8830220f55dcd760e94c0dadf597b6eea4",
+          "githubTag": "jena-6.0.0"
+        },
+        {
+          "packageName": "org.apache.jena:jena-base",
+          "packageVersion": "6.0.0",
+          "githubOrg": "apache",
+          "githubRepo": "jena",
+          "githubCommit": "1b767c8830220f55dcd760e94c0dadf597b6eea4",
+          "githubTag": "jena-6.0.0"
+        }
       ]
     }
   ],
