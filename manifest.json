@@ -696,25 +696,29 @@
         {
           "packageName": "org.apache.jena:jena-arq",
           "ecosystem": "MAVEN",
-          "version": "${ver.jena}",
+          "version": "6.0.0",
           "githubOrg": "apache",
           "githubRepo": "jena",
+          "githubCommit": "1b767c8830220f55dcd760e94c0dadf597b6eea4",
+          "githubTag": "jena-6.0.0",
           "githubUrl": "https://github.com/apache/jena",
           "source": "build_file:pom.xml"
         },
         {
           "packageName": "eu.neverblink.jelly:jelly-jena",
           "ecosystem": "MAVEN",
-          "version": "${ver.jelly}",
+          "version": "3.7.1",
           "githubOrg": "Jelly-RDF",
           "githubRepo": "jelly-jvm",
+          "githubCommit": "29788d99fef30242a831260cfe9bb0181b30c2fe",
+          "githubTag": "v3.7.1",
           "githubUrl": "https://github.com/Jelly-RDF/jelly-jvm",
           "source": "build_file:pom.xml"
         },
         {
           "packageName": "junit:junit",
           "ecosystem": "MAVEN",
-          "version": "${ver.junit}",
+          "version": "4.13.2",
           "githubOrg": "junit-team",
           "githubRepo": "junit4",
           "githubUrl": "https://github.com/junit-team/junit4",
@@ -723,18 +727,22 @@
         {
           "packageName": "org.slf4j:slf4j-api",
           "ecosystem": "MAVEN",
-          "version": "${ver.slf4j}",
+          "version": "2.1.0-alpha1",
           "githubOrg": "qos-ch",
           "githubRepo": "slf4j",
+          "githubCommit": "d0fe6310eb4f1e9cb306b6934a3e7aee0feef46b",
+          "githubTag": "v_2.1.0-alpha1",
           "githubUrl": "https://github.com/qos-ch/slf4j",
           "source": "build_file:pom.xml"
         },
         {
           "packageName": "org.apache.logging.log4j:log4j-slf4j2-impl",
           "ecosystem": "MAVEN",
-          "version": "${ver.log4j2}",
+          "version": "3.0.0-beta2",
           "githubOrg": "apache",
           "githubRepo": "logging-log4j2",
+          "githubCommit": "086db24a04f905b40649666aafe3bb4778a75291",
+          "githubTag": "rel/3.0.0-beta2",
           "githubUrl": "https://github.com/apache/logging-log4j2",
           "source": "build_file:pom.xml"
         },
