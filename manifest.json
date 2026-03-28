@@ -747,7 +747,7 @@
           "source": "build_file:pom.xml"
         },
         {
-          "packageName": "java",
+          "packageName": "java.base:java.lang",
           "ecosystem": "MAVEN",
           "githubOrg": "openjdk",
           "githubRepo": "jdk",
@@ -766,6 +766,27 @@
           "install_path": "/jena-core-6.0.0.jar/org.apache.jena.rdf.model/ResourceFactory.class"
         },
         {
+          "packageName": "java.base:java.util",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.base:java.net",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.base:java.util.stream",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
           "packageName": "org.apache.jena:jena-base",
           "ecosystem": "MAVEN",
           "version": "6.0.0",
@@ -776,6 +797,20 @@
           "githubUrl": "https://github.com/apache/jena",
           "source": "lsp",
           "install_path": "/jena-base-6.0.0.jar/org.apache.jena.atlas.iterator/Iter.class"
+        },
+        {
+          "packageName": "java.base:java.util.regex",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.base:java.time.format",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
         }
       ]
     },
