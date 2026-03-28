@@ -47,25 +47,25 @@
       "@type": "repolex:GraphFile",
       "repolex:graphType": "repolex",
       "repolex:graphFilePath": "aggregate/repolex/8811f78129a3f3fe0f586610324b60d834944f16.nq.gz",
-      "repolex:graphFileSize": 7362622
+      "repolex:graphFileSize": 7393128
     },
     {
       "@type": "repolex:GraphFile",
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/8811f78129a3f3fe0f586610324b60d834944f16.nq.gz",
-      "repolex:graphFileSize": 25101890
+      "repolex:graphFileSize": 25104063
     },
     {
       "@type": "repolex:GraphFile",
       "repolex:graphType": "lsp",
       "repolex:graphFilePath": "aggregate/lsp/8811f78129a3f3fe0f586610324b60d834944f16.nq.gz",
-      "repolex:graphFileSize": 2239665
+      "repolex:graphFileSize": 2248823
     },
     {
       "@type": "repolex:GraphFile",
       "repolex:graphType": "dep",
       "repolex:graphFilePath": "dep/8811f78129a3f3fe0f586610324b60d834944f16.nq.gz",
-      "repolex:graphFileSize": 1011
+      "repolex:graphFileSize": 1056
     }
   ],
   "repolex:parseStatus": "parsed",
@@ -100,6 +100,10 @@
       "repolex:packageName": "org.apache.logging.log4j:log4j-slf4j2-impl",
       "git:hexsha": "086db24a04f905b40649666aafe3bb4778a75291",
       "git:tagName": "rel/3.0.0-beta2"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java"
     },
     {
       "@id": "https://repolex.ai/r/apache/jena",

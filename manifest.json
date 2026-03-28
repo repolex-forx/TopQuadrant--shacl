@@ -747,6 +747,13 @@
           "source": "build_file:pom.xml"
         },
         {
+          "packageName": "java",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
           "packageName": "org.apache.jena:jena-core",
           "ecosystem": "MAVEN",
           "version": "6.0.0",
