@@ -15804,6 +15804,125 @@
         "blob/f7a45605a7dabf253707cf0196a803373a001c09.nq.gz",
         "blob/606f1121363f59706aff93c8cbbe5b5e02914a6e.nq.gz",
         "blob/7d8d86b44c5147a525460dae8f8400c976012f12.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/6703a39182c4996ad23119f96f7f0d52640bbad8.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/6703a39182c4996ad23119f96f7f0d52640bbad8.nq.gz",
+      "repolex": "aggregate/repolex/6703a39182c4996ad23119f96f7f0d52640bbad8.nq.gz",
+      "dep": "dep/6703a39182c4996ad23119f96f7f0d52640bbad8.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "org.apache.jena:jena-arq",
+          "ecosystem": "MAVEN",
+          "version": "3.3.0",
+          "githubOrg": "apache",
+          "githubRepo": "jena",
+          "githubCommit": "a35bad974eb24e4ed03af195c7adef72039cd030",
+          "githubTag": "jena-3.3.0",
+          "githubUrl": "https://github.com/apache/jena",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "junit:junit",
+          "ecosystem": "MAVEN",
+          "version": "4.12",
+          "githubOrg": "junit-team",
+          "githubRepo": "junit4",
+          "githubUrl": "https://github.com/junit-team/junit4",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "org.slf4j:slf4j-api",
+          "ecosystem": "MAVEN",
+          "version": "1.7.21",
+          "githubOrg": "qos-ch",
+          "githubRepo": "slf4j",
+          "githubCommit": "25aba2ea4febeb35ba910c249826b5a62001a7e4",
+          "githubTag": "v_1.7.21",
+          "githubUrl": "https://github.com/qos-ch/slf4j",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "org.slf4j:slf4j-log4j12",
+          "ecosystem": "MAVEN",
+          "version": "1.7.21",
+          "githubOrg": "qos-ch",
+          "githubRepo": "slf4j",
+          "githubCommit": "25aba2ea4febeb35ba910c249826b5a62001a7e4",
+          "githubTag": "v_1.7.21",
+          "githubUrl": "https://github.com/qos-ch/slf4j",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "org.apache.jena:jena-core",
+          "ecosystem": "MAVEN",
+          "version": "3.3.0",
+          "githubOrg": "apache",
+          "githubRepo": "jena",
+          "githubCommit": "a35bad974eb24e4ed03af195c7adef72039cd030",
+          "githubTag": "jena-3.3.0",
+          "githubUrl": "https://github.com/apache/jena",
+          "source": "lsp",
+          "install_path": "/jena-core-3.3.0.jar/org.apache.jena.rdf.model/ResourceFactory.class"
+        },
+        {
+          "packageName": "java.base:java.util",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.base:java.lang",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.base:java.net",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.base:java.util.regex",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "org.apache.jena:jena-base",
+          "ecosystem": "MAVEN",
+          "version": "3.3.0",
+          "githubOrg": "apache",
+          "githubRepo": "jena",
+          "githubCommit": "a35bad974eb24e4ed03af195c7adef72039cd030",
+          "githubTag": "jena-3.3.0",
+          "githubUrl": "https://github.com/apache/jena",
+          "source": "lsp",
+          "install_path": "/jena-base-3.3.0.jar/org.apache.jena.atlas.iterator/Iter.class"
+        },
+        {
+          "packageName": "org.apache.commons:commons-lang3",
+          "ecosystem": "MAVEN",
+          "version": "3.4",
+          "githubOrg": "apache",
+          "githubRepo": "commons-lang",
+          "githubUrl": "https://github.com/apache/commons-lang",
+          "source": "lsp",
+          "install_path": "/commons-lang3-3.4.jar/org.apache.commons.lang3.time/FastDateFormat.class"
+        },
+        {
+          "packageName": "java.xml:javax.xml.transform",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        }
       ]
     }
   ],
