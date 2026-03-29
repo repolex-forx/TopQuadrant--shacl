@@ -1805,11 +1805,11 @@
         {
           "packageName": "eu.neverblink.jelly:jelly-jena",
           "ecosystem": "MAVEN",
-          "version": "3.7.1",
+          "version": "3.7.2",
           "githubOrg": "Jelly-RDF",
           "githubRepo": "jelly-jvm",
-          "githubCommit": "29788d99fef30242a831260cfe9bb0181b30c2fe",
-          "githubTag": "v3.7.1",
+          "githubCommit": "6b8908c18e22725920ba4041ac9bd451be153455",
+          "githubTag": "v3.7.2",
           "githubUrl": "https://github.com/Jelly-RDF/jelly-jvm",
           "source": "build_file:pom.xml"
         },

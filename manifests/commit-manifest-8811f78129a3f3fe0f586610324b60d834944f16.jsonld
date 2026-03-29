@@ -47,25 +47,25 @@
       "@type": "repolex:GraphFile",
       "repolex:graphType": "repolex",
       "repolex:graphFilePath": "aggregate/repolex/8811f78129a3f3fe0f586610324b60d834944f16.nq.gz",
-      "repolex:graphFileSize": 7399530
+      "repolex:graphFileSize": 7395982
     },
     {
       "@type": "repolex:GraphFile",
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/8811f78129a3f3fe0f586610324b60d834944f16.nq.gz",
-      "repolex:graphFileSize": 25115029
+      "repolex:graphFileSize": 25107649
     },
     {
       "@type": "repolex:GraphFile",
       "repolex:graphType": "lsp",
       "repolex:graphFilePath": "aggregate/lsp/8811f78129a3f3fe0f586610324b60d834944f16.nq.gz",
-      "repolex:graphFileSize": 2252593
+      "repolex:graphFileSize": 2248842
     },
     {
       "@type": "repolex:GraphFile",
       "repolex:graphType": "dep",
       "repolex:graphFilePath": "dep/8811f78129a3f3fe0f586610324b60d834944f16.nq.gz",
-      "repolex:graphFileSize": 1239
+      "repolex:graphFileSize": 1243
     }
   ],
   "repolex:parseStatus": "parsed",
@@ -82,8 +82,8 @@
     {
       "@id": "https://repolex.ai/r/Jelly-RDF/jelly-jvm",
       "repolex:packageName": "eu.neverblink.jelly:jelly-jena",
-      "git:hexsha": "29788d99fef30242a831260cfe9bb0181b30c2fe",
-      "git:tagName": "v3.7.1"
+      "git:hexsha": "6b8908c18e22725920ba4041ac9bd451be153455",
+      "git:tagName": "v3.7.2"
     },
     {
       "@id": "https://repolex.ai/r/junit-team/junit4",
