@@ -12102,6 +12102,152 @@
         "blob/f7a45605a7dabf253707cf0196a803373a001c09.nq.gz",
         "blob/606f1121363f59706aff93c8cbbe5b5e02914a6e.nq.gz",
         "blob/7d8d86b44c5147a525460dae8f8400c976012f12.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/0dd76c876a0c85732eeabd4f31e25c5cb52b118a.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/0dd76c876a0c85732eeabd4f31e25c5cb52b118a.nq.gz",
+      "repolex": "aggregate/repolex/0dd76c876a0c85732eeabd4f31e25c5cb52b118a.nq.gz",
+      "dep": "dep/0dd76c876a0c85732eeabd4f31e25c5cb52b118a.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "org.apache.jena:jena-arq",
+          "ecosystem": "MAVEN",
+          "version": "6.0.0",
+          "githubOrg": "apache",
+          "githubRepo": "jena",
+          "githubCommit": "1b767c8830220f55dcd760e94c0dadf597b6eea4",
+          "githubTag": "jena-6.0.0",
+          "githubUrl": "https://github.com/apache/jena",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "junit:junit",
+          "ecosystem": "MAVEN",
+          "version": "4.13.2",
+          "githubOrg": "junit-team",
+          "githubRepo": "junit4",
+          "githubUrl": "https://github.com/junit-team/junit4",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "org.slf4j:slf4j-api",
+          "ecosystem": "MAVEN",
+          "version": "2.1.0-alpha1",
+          "githubOrg": "qos-ch",
+          "githubRepo": "slf4j",
+          "githubCommit": "d0fe6310eb4f1e9cb306b6934a3e7aee0feef46b",
+          "githubTag": "v_2.1.0-alpha1",
+          "githubUrl": "https://github.com/qos-ch/slf4j",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "org.antlr:antlr4-runtime",
+          "ecosystem": "MAVEN",
+          "version": "4.13.2",
+          "githubOrg": "antlr",
+          "githubRepo": "antlr4",
+          "githubCommit": "cc82115a4e7f53d71d9d905caa2c2dfa4da58899",
+          "githubTag": "4.13.2",
+          "githubUrl": "https://github.com/antlr/antlr4/tree/master",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "org.slf4j:slf4j-log4j12",
+          "ecosystem": "MAVEN",
+          "version": "2.1.0-alpha1",
+          "githubOrg": "qos-ch",
+          "githubRepo": "slf4j",
+          "githubCommit": "d0fe6310eb4f1e9cb306b6934a3e7aee0feef46b",
+          "githubTag": "v_2.1.0-alpha1",
+          "githubUrl": "https://github.com/qos-ch/slf4j",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "java.base:java.lang",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.base:java.util",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "org.apache.jena:jena-core",
+          "ecosystem": "MAVEN",
+          "version": "3.13.1",
+          "githubOrg": "apache",
+          "githubRepo": "jena",
+          "githubCommit": "987b59e2405f2e5853f5550219b932a5fb7bb86c",
+          "githubTag": "jena-3.13.1",
+          "githubUrl": "https://github.com/apache/jena",
+          "source": "lsp",
+          "install_path": "/jena-core-3.13.1.jar/org.apache.jena.rdf.model/ResourceFactory.class"
+        },
+        {
+          "packageName": "java.base:java.util.regex",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.base:java.net",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "org.apache.jena:jena-shaded-guava",
+          "ecosystem": "MAVEN",
+          "version": "3.13.1",
+          "githubOrg": "apache",
+          "githubRepo": "jena",
+          "githubCommit": "987b59e2405f2e5853f5550219b932a5fb7bb86c",
+          "githubTag": "jena-3.13.1",
+          "githubUrl": "https://github.com/apache/jena",
+          "source": "lsp",
+          "install_path": "/jena-shaded-guava-3.13.1.jar/org.apache.jena.ext.com.google.common.collect/Sets.class"
+        },
+        {
+          "packageName": "java.base:java.time.format",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "org.apache.jena:jena-base",
+          "ecosystem": "MAVEN",
+          "version": "3.13.1",
+          "githubOrg": "apache",
+          "githubRepo": "jena",
+          "githubCommit": "987b59e2405f2e5853f5550219b932a5fb7bb86c",
+          "githubTag": "jena-3.13.1",
+          "githubUrl": "https://github.com/apache/jena",
+          "source": "lsp",
+          "install_path": "/jena-base-3.13.1.jar/org.apache.jena.atlas.lib/DateTimeUtils.class"
+        },
+        {
+          "packageName": "java.base:java.util.function",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.base:java.util.stream",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        }
       ]
     },
     {
